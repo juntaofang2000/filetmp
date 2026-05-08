@@ -1,0 +1,10 @@
+name: tabICL
+channels:
+  - defaults
+dependencies:
+  - python==3.10.19
+  - optuna[version='>=3.6.0']
+  - matplotlib
+  - cupy
+  - cuda-version=12.9
+prefix: /data0/fangjuntao2025/.conda/envs/tabICL
